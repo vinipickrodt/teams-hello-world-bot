@@ -1,0 +1,18 @@
+{
+  "name": "teams-hello-world-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bot Hello World para Microsoft Teams usando Bot Framework SDK.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "botbuilder": "^4.23.3",
+    "dotenv": "^16.4.7",
+    "restify": "^11.1.0"
+  }
+}

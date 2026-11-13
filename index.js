@@ -28,7 +28,7 @@ server.post('/api/messages', async (request, response) => {
   await adapter.process(request, response, async (context) => bot.run(context));
 });
 
-const port = Number(process.env.PORT || 3978);
+const port = Number(process.env.PORT || 80);
 server.listen(port, () => {
   console.log(`Bot disponível em http://localhost:${port}`);
   console.log(`Endpoint de mensagens: http://localhost:${port}/api/messages`);
